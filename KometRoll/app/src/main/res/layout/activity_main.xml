@@ -1,18 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgnew"
+    >
 
     <TextView
+        android:id="@+id/scoreLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Score : 0"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to Start"
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/assetchar"
+            android:layout_gravity="top"
+            />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/orange"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/obs1new"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/obs1new"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/obs2new"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/obs1new2"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/pink"
+            android:visibility="invisible"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

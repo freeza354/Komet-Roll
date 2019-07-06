@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">KometRoll</string>
+    <string name="app_name">Vertical_Roll</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="leaderboard">CgkI77Ke2scTEAIQBQ</string>
+    <string name="achievement_welcome">CgkI77Ke2scTEAIQBg</string>
+    <string name="app_id">com.rezafaiz.vertical_roll</string>
+    <string name="signin_other_error">test</string>
+    <string name="signed_out">sign_out</string>
 </resources>

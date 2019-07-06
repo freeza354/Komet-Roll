@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672083188079",
+    "firebase_url": "https://komet-roll-54792444.firebaseio.com",
+    "project_id": "komet-roll-54792444",
+    "storage_bucket": "komet-roll-54792444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672083188079:android:ab7d5143e494412d",
+        "android_client_info": {
+          "package_name": "com.rezafaiz.vertical_roll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672083188079-93rg4ctrqlfhadbu8pc3ubb4n7cbesdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rezafaiz.vertical_roll",
+            "certificate_hash": "d03f2214ae3d68ee493b5c3583446ff63c687a5b"
+          }
+        },
+        {
+          "client_id": "672083188079-ldp9vjif76jvcoqlfmou7ccte5it0t7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtgNtmt7d9QSn8DhugAA2lZlDphfltocs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672083188079-ldp9vjif76jvcoqlfmou7ccte5it0t7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
